@@ -1,0 +1,12 @@
+package com.spring.rabiulboot.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.spring.rabiulboot.entity.CustomerEntity;
+
+
+@Repository
+public interface CustomerRepository extends JpaRepository<CustomerEntity, Long> {
+
+}
